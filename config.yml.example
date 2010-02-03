@@ -1,0 +1,5 @@
+source_directory: /Users/nchapman/Downloads
+destination_directory: /Users/nchapman/Downloads/Organized
+delete_processed_files: true
+processed_directory: /Users/nchapman/Downloads/Processed
+extension: avi
