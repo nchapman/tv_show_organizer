@@ -11,7 +11,7 @@ class TVRage
   end
   
   def load_quick_info
-    url = "http://www.tvrage.com/quickinfo.php?show=#{@show}&ep=#{@season.to_s.rjust(2, '0')}x#{@episode.to_s.rjust(2, '0')}"
+    url = "http://services.tvrage.com/tools/quickinfo.php?show=#{@show}&ep=#{@season.to_s.rjust(2, '0')}x#{@episode.to_s.rjust(2, '0')}"
 
     result = open(url).string
     
